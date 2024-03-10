@@ -1,0 +1,58 @@
+.input {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px;
+  padding: 0.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: #4f005f;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+#email,
+#password,
+#username,
+#mood,
+#genre,
+#name {
+  border: 1px solid black; /* Adjust the border properties as needed */
+  padding: 1px; /* Optional: Add padding for better appearance */
+  margin-bottom: 10px; /* Optional: Add margin to separate input boxes */
+  color: #1DB954; /* Optional: Set the text color to ensure visibility */
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.btn-signup {
+  background-color: #1DB954;
+  color: black;
+}

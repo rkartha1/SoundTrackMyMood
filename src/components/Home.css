@@ -1,0 +1,96 @@
+/* styles.css */
+@import url(https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+
+@font-face {
+    font-family: "Circular Std Book";
+    src: url("https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot");
+    src: url("https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.svg#Circular Std Book")format("svg");
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: "Circular Std Book";
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    /* Center text in the body */
+    background-color: black;
+}
+
+
+.explanation {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+nav button {
+    padding: 15px;
+    font-size: 16px;
+
+}
+
+.explanation {
+    margin-bottom: 20px;
+}
+
+.popular {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-login {
+    background-color: #1DB954;
+    color: black;
+    margin-right: 10px;
+}
+
+.btn-signup {
+    background-color: #1DB954;
+    color: black;
+}
+
+.btn-login:hover {
+    background-color: #A1B28F;
+}
+.btn-signup:hover {
+    background-color: #A1B28F;
+}
